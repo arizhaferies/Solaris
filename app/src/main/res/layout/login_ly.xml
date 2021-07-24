@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+    //tools:context=".LoginActivity"
+
+    <TextView
+        android:id="@+id/PleaseLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Masuk"
+        android:textSize="24sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/PleaseLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:drawablePadding="24dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_below="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawablePadding="24dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/buat_baru"
+        android:layout_below="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:gravity="center_horizontal" />
+
+    <ProgressBar
+        android:id="@+id/pb2"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buat_baru"
+        android:layout_marginTop="47dp"
+        android:foregroundGravity="center_horizontal" />
+</RelativeLayout>

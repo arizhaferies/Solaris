@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/articleimg2"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_img" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="582dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detailNama"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Nama Lokasi"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/Orange"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="1"/>
+
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:minLines="4"
+                    android:padding="5dp"
+                    android:text="Deskripsi lokasi"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#0f0f0f" />
+
+                <CheckBox
+                    android:id="@+id/solo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paket Solo Trip" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:text="Menjelajah sendiri seperti seorang petualang." />
+
+                <CheckBox
+                    android:id="@+id/grupPrifat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paket Bersama Teman" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:text="Kelompok hanya dengan teman terdekat, maksimum 15 orang atau 3 kelompok." />
+
+                <CheckBox
+                    android:id="@+id/grupPublik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paket Kelompok Publik" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:text="Mau ketemu temen baru sambil jalan-jalan? Paket ini cocok buat kamu!" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pesan_paket"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Pesan Paket"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

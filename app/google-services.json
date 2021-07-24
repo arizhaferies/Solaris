@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "963706789887",
+    "firebase_url": "https://solarisrun-42069.firebaseio.com",
+    "project_id": "solarisrun-42069",
+    "storage_bucket": "solarisrun-42069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963706789887:android:248c1505582988be7991ca",
+        "android_client_info": {
+          "package_name": "com.example.solaris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963706789887-08adtjh15knl87md05c4vq6ida2e43a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3TYlvx2Xr2rlTGYvuvJSD93HQdlCz1lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963706789887-08adtjh15knl87md05c4vq6ida2e43a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
